@@ -2,7 +2,6 @@
 #include "Coche.h"
 #include <iostream>
 
-
 class Concesionario
 {
 private:
