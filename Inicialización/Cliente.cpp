@@ -8,16 +8,16 @@ using namespace std;
 class Cliente{
 
     private:         
-        string nombre;
+        string nombreDNI;
         int Inventario;
 
     public:
         Cliente(string, int);
 };
 
-Cliente::Cliente(string _nombre, int _Inventario){
+Cliente::Cliente(string _nombreDNI, int _Inventario){
 
-    nombre = _nombre;
+    nombreDNI = _nombreDNI;
     Inventario = _Inventario;
 
 }
