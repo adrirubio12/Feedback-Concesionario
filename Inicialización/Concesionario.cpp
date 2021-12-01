@@ -15,7 +15,10 @@ Concesionario(void);
 \brief Añade un nuevo coche al inventario
 @returns false si el coche ya estaba en el inventario o en el taller
 */
-bool addCarToStock( Coche* car );
+bool addCarToStock( Coche* car ); 
+//Se comprueba que el coche que se quiere añadir esta en _stock o en _repairing.
+//Si esta en alguno de los dos vectores se retorna False
+//Si no lo encuentra añade el coche al vector _stock y retorna True
 /*!
 \brief Vende un coche del inventario al usuario y lo añade a su lista de coches
 Tras ejecutar esta función se quita el coche del inventario
