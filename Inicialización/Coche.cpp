@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h>
 
+
 class Coche {
     /*! Posibles estados del coche */
     enum status {

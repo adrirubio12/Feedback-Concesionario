@@ -1,6 +1,7 @@
-#include "Cliente.h"
-#include "Coche.h"
+#include <vector>
 #include <iostream>
+#include "Cliente.cpp"
+#include "Coche.cpp"
 
 class Concesionario
 {
