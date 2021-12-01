@@ -25,6 +25,10 @@ Tras ejecutar esta función se quita el coche del inventario
 @returns false si el coche no está en inventario o el cliente no puede pagarlo
 */
 bool sellCar( Cliente* client, std::string license );
+//Se comprueba si el coche que se quiere vender esta en el inventario del concesionario y si el cliente puede pagar el coche.
+//Si alguna de las dos condiciones no se cumple, el método retornara false y no se venderá.
+//Si se cumplen las dos condiciones, el método retornara true, se le añade el coche al cliente
+//y se quita el coche al inventario del concesionario.
 /*!
 \brief Toma un coche averiado del cliente y lo añade al taller
 @returns false si el cliente no tiene ese coche o el coche no está averiado
