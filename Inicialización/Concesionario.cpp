@@ -34,6 +34,9 @@ bool sellCar( Cliente* client, std::string license );
 @returns false si el cliente no tiene ese coche o el coche no está averiado
 */
 bool checkCarInGarage( Cliente* client, std::string license );
+//Se comprueba si el coche que se quiere añadir está en el inventario del cliente y si el coche no está averiado.
+//Si alguna de las dos condiciones no se cumple, el método retornará false y no se realizará la petición. 
+//Si se cumplen las dos condiciones, el método retornará true y se le añadirá el coche al taller del concesionario.
 /*!
 \brief Toma un coche listo del taller y se lo devuelve al cliente
 @returns false si el coche no está en el taller y en estado de listo
