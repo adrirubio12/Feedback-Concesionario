@@ -42,5 +42,9 @@ bool checkCarInGarage( Cliente* client, std::string license );
 @returns false si el coche no está en el taller y en estado de listo
 */
 bool retrieveCarFromGarage( Cliente* cliente, std::string license );
+//Se comprueba si el coche que se quiere retirar está en el taller y si el coche esta reparado.
+//Se comprueba si el coche esta repardo con el metodo status en la clase coche.
+//Si alguna de las dos condiciones no se cumple, el método retornará false y no se realizará la petición. 
+//Si se cumplen las dos condiciones, el método retornará true y se le dara el coche al cliente.
 
 };
