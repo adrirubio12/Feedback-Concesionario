@@ -3,12 +3,12 @@
 
 
 using namespace std;
-
+ 
 
 class Cliente{
 
     private:         
-        string nombreDNI;
+        string NombreDNI;
         int Inventario;
 
     public:
@@ -17,7 +17,7 @@ class Cliente{
 
 Cliente::Cliente(string _nombreDNI, int _Inventario){
 
-    nombreDNI = _nombreDNI;
+    NombreDNI = _nombreDNI;
     Inventario = _Inventario;
 
 }
